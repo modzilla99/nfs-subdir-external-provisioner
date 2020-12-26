@@ -2,7 +2,7 @@ replicaCount: 1
 strategyType: Recreate
 
 image:
-  repository: docker.io/modzilla/nfs-subdir-external-provisioner/
+  repository: docker.io/modzilla/nfs-subdir-external-provisioner
   tag: latest
   pullPolicy: IfNotPresent
 
