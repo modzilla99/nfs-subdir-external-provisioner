@@ -6,7 +6,7 @@ home: https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
 version: 3.0.0
 kubeVersion: ">=1.9.0 <1.20.0"
 sources:
-- https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+- https://github.com/modzilla99/nfs-subdir-external-provisioner
 keywords:
 - nfs
 - storage
