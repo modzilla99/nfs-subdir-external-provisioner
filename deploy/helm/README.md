@@ -5,7 +5,7 @@ The [NFS subdir external provisioner](https://github.com/kubernetes-sigs/nfs-sub
 ## TL;DR;
 
 ```console
-$ git clone https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner.git
+$ git clone https://github.com/modzilla99/nfs-subdir-external-provisioner.git
 $ cd nfs-subdir-external-provisioner/deploy/helm/
 $ helm install nfs-subdir-external-provisioner . \
     --set nfs.server=x.x.x.x \
