@@ -61,7 +61,7 @@ The following tables lists the configurable parameters of this chart and their d
 | `storageClass.name`                 | Name of the storageClass                                    | `nfs-client`                                      |
 | `storageClass.defaultClass`         | Set as the default StorageClass                             | `false`                                           |
 | `storageClass.allowVolumeExpansion` | Allow expanding the volume                                  | `true`                                            |
-| `storageClass.reclaimPolicy`        | Method used to reclaim an obsoleted volume                  | `Retain`                                          |
+| `storageClass.reclaimPolicy`        | Method used to reclaim an obsoleted volume                  | `Recycle`                                          |
 | `storageClass.provisionerName`      | Name of the provisionerName                                 | null                                              |
 | `storageClass.archiveOnDelete`      | Archive pvc when deleting                                   | `true`                                            |
 | `storageClass.accessModes`          | Set access mode for PV                                      | `ReadWriteMany`                                   |
